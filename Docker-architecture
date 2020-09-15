@@ -1,0 +1,8 @@
+Docker Architecture
+Docker Engine
+
+Client Docker CLI (run,pul,delete) -> Rest API->
+	-> host (Daemon named DockerD) responsible to manage image and conitainers
+
+We can not save data on container. As data will vanish with deletion of container. Hence docker volume use to store data
+
